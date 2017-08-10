@@ -54,7 +54,6 @@
         </div>
         <div class="track-info">
           <h3>专辑介绍：</h3>
-<!--           <p>无论是谁都有一个成长的过程，同时也要感谢那些想尽办法要将你置于死地的人，如果不是他们步步紧逼，也不会有今天的我们。</p> -->
             <pre v-show="!des.isShowMore">{{des.descDot}}<b class="u-desc" v-show="des.descMore">...</b></pre>
             <pre v-show="des.isShowMore">{{des.descMore}}</pre>
             <div class="show-more" v-if="des.descMore">

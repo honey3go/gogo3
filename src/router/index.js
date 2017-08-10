@@ -10,6 +10,7 @@ import fans from '@/components/user-fans'
 import fav from '@/components/user-fav'
 import gens from '@/components/user-general'
 import artist from '@/components/artist'
+import radio from '@/components/radio'
 import artisthot from '@/components/artist-hot'
 import artistalbum from '@/components/artist-album'
 
@@ -35,7 +36,10 @@ export default new Router({
 		},
 		{
 			path: '/song/:id', component: song,	
-		},  
+		}, 
+		{
+			path: '/radio', component: radio,	
+		}, 
 		{
 			path: '/user/:id', component: user,	
 			children :[
